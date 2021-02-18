@@ -5,13 +5,14 @@ The Foundry Discordbot is to be used with the Foundry Discordbridge module, and 
 ## Required Setup
  - Add the module to FoundryVTT.
  - Prepare the bot in the bot folder.
- - Install the required modules from requirements.txt
+ - You will need python3 installed. I suggest pyenv. You will also need to install libffi-dev. on Ubunto you can use apt-get install libffi-dev. !!!IMPORANT!!! if you have installed/setup python3 in pyenv BEFORE installing libffi-dev you will need to re-install python 3 in pyenv to use this new libffi. You may also need to run ldconfig prior.
+ - Install the required modules from requirements.txt. Use pip3 install -r requirements.txt
  - Create a config.json based on exampleConfig.json
- - Ensure that the port and IP selected can be viewed by the FoundryVTT server.
+ - Ensure that the port and IP selected can be viewed by the FoundryVTT server. This is relative to websockets, so localhost won't work. Also, if you are using https, you will need to configure your nginx/apache reverse proxy to use the bot, as websockets will NOT allow you to mix https and http.
  - Configure the bot's token.
 - Invite it to the guild you want it to use.
 - Configure the module settings to tell Foundry where the bot is located.
-- Create a campaign in the channel (see usage).
+- Create a campaign in the channel (see usage). IT HAS to match the name of the world you already created.
 ## Usage
 Quotes are mandatory on arguments that are wrapped in them in these examples. Only the owner can configure Campaigns and delete messages. /me and non-whispered chat will be bridged automatically.
 - Use the command `>_rpb campaign add "Title of your World in FoundryVTT"` in the channel you want messages bridged to.
