@@ -4,7 +4,7 @@
     "description": "Bridges Foundry in-game chat to a discord bot, for reposting on discord automatically.",
     "version": "1.0.0",
     "minimumCoreVersion": "0.6.5",
-    "compatibleCoreVersion": "0.6.5",
+    "compatibleCoreVersion": "0.7.9",
     "scripts": [
         "./scripts/discordbridge.js"
     ],
