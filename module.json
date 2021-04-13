@@ -9,6 +9,6 @@
         "./scripts/discordbridge.js"
     ],
     "url" : "https://github.com/digitalirony/foundry-discordbridge",
-    "manifest": "https://raw.githubusercontent.com/digitalirony/foundry-discordbridge/master/module.json",
+    "manifest": "https://github.com/mbevier/foundry-discordbridge/blob/8561352e959e011898a92006a79d669a9f0ffd13/module.json",
     "download": "https://github.com/digitalirony/foundry-discordbridge/archive/1.0.1.zip"
   }
