@@ -10,5 +10,5 @@
     ],
     "url" : "https://github.com/mbevier/foundry-discordbridge",
     "manifest": "https://github.com/mbevier/foundry-discordbridge/blob/ba09ea40e623d4ccc13ba04db28c050270d1ce9c/module.json",
-    "download": "https://github.com/digitalirony/foundry-discordbridge/archive/1.0.1.zip"
+    "download": "https://github.com/mbevier/foundry-discordbridge/releases/download/1.1/foundry-discordbridge-master-mbevier.zip"
   }
