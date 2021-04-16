@@ -1,6 +1,6 @@
 {
     "name": "foundry-discordbridge",
-    "title": "Foundry Discordbridge",
+    "title": "Foundry Discordbridge Cow Revision",
     "description": "Bridges Foundry in-game chat to a discord bot, for reposting on discord automatically.",
     "version": "1.0.1",
     "minimumCoreVersion": "0.6.5",
