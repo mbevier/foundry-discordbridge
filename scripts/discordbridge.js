@@ -84,7 +84,7 @@ Hooks.on("createChatMessage", (message, options, user) =>
     {
         return;
     }
-    if (message.data.type == 5 || message.data.type == 0 || message.data.type == 4)
+    if (message.data.type == 0 || message.data.type == 4)
     {
         return;
     }
